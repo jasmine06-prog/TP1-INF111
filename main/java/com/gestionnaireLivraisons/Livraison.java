@@ -12,7 +12,11 @@ public class Livraison
     // TODO : À compléter/modifier
 
     // Les attributs d'instance
-    // TODO : À compléter/modifier
+    private int id;               // identifiant unique de la livraison
+    private Priorite priorite;    // niveau de priorité (NORMALE ou URGENTE)
+    private int tentative;        // numéro de tentative (commence à 0)
+    private int lot;              // numéro du lot
+    private Statut statut;        // état actuel de la livraison
 
     /**
      * Constructeur d'une livraison.
